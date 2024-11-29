@@ -25,6 +25,6 @@ describe('Reqres Automation Test', () => {
         const userid = 2;
         const res = await reqres.DeleteUser(userid);
         console.log(res.body);
-        expect(res.status).toBe(201);
+        expect(res.status).toBe(204);
     });
 });
